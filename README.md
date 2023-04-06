@@ -1,30 +1,26 @@
-Bot-Coinbase
+<h1>Welcome to the test-bot-coinbase repository!</h1>
+<p>This repository contains a python testbot that can be used on the pro.coinbase sandbox environment.</p>
 
-Welcome to the test-bot-coinbase repository! This repository contains a python testbot that can be used on the pro.coinbase sandbox environment.
+<p><strong>This bot is a machine learning bot, but still is under development and is not working yet. Please do not use on live mode.
+I am looking for people to work on this to make it work better.</strong></p>
 
+<h2>Getting Started</h2>
 
-**This bot is a machine learning bot, but sill is under development and is not working yet. Please do not use on live mode.
-I am looking for people to work on this to make it work better.
+<p>To use this testbot, you'll need to have Python 3 installed on your machine. You can download Python 3 from the <a href="https://www.python.org/">official website</a>.</p>
 
-Getting Started
+<p>Once you have Python 3 installed, clone this repository to your local machine using the following command:</p>
 
-To use this testbot, you'll need to have Python 3 installed on your machine. You can download Python 3 from the official website.
+<pre><code>git clone https://github.com/your-username/bot-coinbase.git</code></pre>
 
-Once you have Python 3 installed, clone this repository to your local machine using the following command:
+<p>Next, navigate to the repository directory and install the necessary dependencies using the following command:</p>
 
-bash
+<pre><code>!pip install ccxt numpy pandas scikit-learn torch TA-Lib optuna</code></pre>
 
-git clone https://github.com/your-username/bot-coinbase.git
+<p>Finally, you can run the testbot using the following command:</p>
 
-Next, navigate to the repository directory and install the necessary dependencies using the following command:
+<pre><code>python testbot.py</code></pre>
 
-pip install -r requirements.txt
+<h2>Donations</h2>
 
-Finally, you can run the testbot using the following command:
-
-python testbot.py
-
-Donations
-
-If you found this testbot useful, consider buying me a coffee to support the development of future projects: 
-[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=9PEWZCHRWUJ7Y)
+<p>If you found this testbot useful, consider buying me a coffee to support the development of future projects: 
+<a href="https://www.paypal.com/donate/?hosted_button_id=9PEWZCHRWUJ7Y">Donate via PayPal</a></p>
